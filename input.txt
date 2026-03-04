@@ -1,0 +1,5 @@
+As a customer, i want to submit an order so that the system processes it asynchrnously
+As the system, i want to publish and receive order in a JMS queue, so that processing is decoupled from request handling
+As the system, i want Spark to consume orders so that it can comute statystics
+As a client, i want to retrieve analytics via grpc so that i can get computed statystics
+As a developer, i want the sytem to run on docker compose so that all services are deployable
